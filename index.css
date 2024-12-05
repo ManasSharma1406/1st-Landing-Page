@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: url(https://images.unsplash.com/photo-1431456702877-ffb4c72ebf43?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: rgb(85, 255, 0); */
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    /* background-color: blue; */
+    background-image: url(https://images.unsplash.com/photo-1610827676189-2d42f6ccdd5d?q=80&w=1844&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    filter: blur(1px);
+    background-position-y: -1000px;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(21, 167, 118, 0.525); */
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: red; */
+}
+
+.text-div {
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-div {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 59px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 88px;
+    color: rgb(0, 0, 0);
+    left: 5%;
+    
+
+
+}
+#small-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(00,-50%);
+    background-image: url(https://images.unsplash.com/photo-1609090671551-47d1fbcd1774?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    box-shadow: 0px 0px 10px black;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -44.9%;
+    top: 44px;
+    z-index: initial;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+
+}
+#vertical-text h1{
+font-size: 80px;
+font-weight: 900;
+
+font-family: "Parkinsans", sans-serif;
+text-transform: uppercase;
+color: transparent;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+-webkit-text-stroke-width: 1px;
+letter-spacing: -2px;
+word-spacing: 40px;
+/* transform: rotate(90deg); */
+
+
+}
+
+#nav{
+    position: absolute;
+    width: 200px;
+    /* background-color: red; */
+    display: flex;
+    left: 1%;
+    top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav img{
+    height: 88px;
+}
+
